@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    margin: 0;
+    background-color:#000;
+    height:100px;
+  }
+canvas{display:block}
+h1 {
+  position: absolute;
+    top: 20%;
+    right:30%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Alkatra', cursive;
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+    text-align: center;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.Hanya_Kata p a{
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+}
+
+.Hanya_Kata p a{
+  color:#fff;
+}
+
+.teks-kanan-bawah {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.teks-kiri-bawah {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
